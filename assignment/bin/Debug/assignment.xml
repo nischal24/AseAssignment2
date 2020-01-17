@@ -1,0 +1,195 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>assignment</name>
+    </assembly>
+    <members>
+        <member name="M:assignment.Form1.loadToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Open,read and display the text file selected by user on clicking load menu item
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.saveToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            .Saves or overWrites  the text file loaded by the user on cliking save menu item. 
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.exitToolStripMenuItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Closes the application
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.clear_Click(System.Object,System.EventArgs)">
+            <summary>
+            clears the panel by refreshing the panel
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.reset_Click(System.Object,System.EventArgs)">
+            <summary>
+            resets the position of the cursor
+            displays message 'points has been reseted' in the message box
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.textClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            clears the text and displays message 'text has been cleared'
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.Execute_Click(System.Object,System.EventArgs)">
+             <summary> 
+            this code check commannd line by line and executes them 
+             </summary>
+        </member>
+        <member name="M:assignment.Form1.panel_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            sets panel background color to light blue
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.run_Click(System.Object,System.EventArgs)">
+            <summary>
+            this code is used reads text from textbox and validates them by sending the data through valid method in ValidateCode class
+            once validated return value is checked for command if found code is executed 
+            if command is not found catch block is executed
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.linenumber">
+            <summary>
+            used to find the line for loop and if in command textbox
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:assignment.Form1.loop(System.String[],System.Int32,System.Int32,System.Int32)">
+            <summary>
+            declaring and calling all the methods to be used in looping proccess  
+            </summary>
+            <param name="result"></param>
+            <param name="radius"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:assignment.Form1.ifcase(System.String[])">
+            <summary>
+            if case method
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.symbolcheck(System.String[],System.String[],System.Int32)">
+            <summary>
+            used to check symbols and check is condition is true or false for the if case method
+            </summary>
+            <param name="results"></param>
+            <param name="line"></param>
+            <param name="counter"></param>
+        </member>
+        <member name="M:assignment.Form1.radiusE(System.String[])">
+            <summary>
+            Method to store radius
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.radiusP(System.String[])">
+            <summary>
+            Method to add radius and store it
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.rectangle(System.String[])">
+            <summary>
+            Method for rectangle
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.circle(System.String[])">
+            <summary>
+            Method for circle
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.triangle(System.String[])">
+            <summary>
+            Method for triangle
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.square(System.String[])">
+            <summary>
+            Method  for square
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.drawto(System.String[])">
+            <summary>
+            Method for drawto upto certain points
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.transform(System.String[])">
+            <summary>
+            Method to transform points upto certain  points
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.definmethod(System.String[])">
+            <summary>
+            Method for defining a a method with
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.myRectangle(System.String[])">
+            <summary>
+            Method to define rectangle call method with
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.myCircle(System.String[])">
+            <summary>
+            Method to call circle method with
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:assignment.Form1.moveTo(System.String[])">
+            <summary>
+            Method for moveto method
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="F:assignment.Form1.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:assignment.Form1.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:assignment.Form1.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:assignment.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:assignment.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:assignment.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:assignment.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
