@@ -9,9 +9,9 @@ namespace assignment
     public partial class Form1 : Form
     {
         //Initializing variables
-        int x = 0, y = 0, radius = 0, width = 0, height = 0, d=0;
+        int x = 0, y = 0, radius = 0, width = 0, height = 0, d=0;//
         Graphics graphics;
-        int fVal = 0, sVal = 0;
+        int firstValue = 0, SecondValue = 0;//
         int a = 0, b = 0, xTranslate = 0, yTranslate = 0;
         string textOrder;
         public Form1()
@@ -775,16 +775,16 @@ namespace assignment
         {
             if (result[1].Equals("a") && result[2].Equals("b"))
             {
-                fVal = 50;
-                sVal = 100;
+                firstValue = 50;
+                SecondValue = 100;
             }
             else
             {
-                fVal = Convert.ToInt32(result[1]);
-                sVal = Convert.ToInt32(result[2]);
+                firstValue = Convert.ToInt32(result[1]);
+                SecondValue = Convert.ToInt32(result[2]);
             }
-            x = fVal;
-            y = sVal;
+            x = firstValue;
+            y = SecondValue;
             MessageBox.Show("points has been moved to \r\nx:" + x + "\r\ny:" + y + "");//shows message box
         }
     }
