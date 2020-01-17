@@ -8,21 +8,23 @@ namespace assignment
 {
     class Factory
     {
-        public Shape getShape(string k)
+        public Shape getShape(string case)
         {
-            if (k == "rectangle")
+            case = case.ToUpper().Trim();//method that change lowercase charcter to upper case character and also trims the white sapces
+            
+            if (case.Equals("rectangle"))
             {
                 return new Rectangle();
             }
-            else if(k== "triangle")
+            else if(case.Equals("triangle"))
             {
                 return new Triangle();
             }
-            else if(k== "circle")
+            else if(case.Equals("circle"))
             {
                 return new Circle();
             }
-            else if (k == "square")
+            else if (case.Equals("square"))
             {
                 return new Square();
             }
