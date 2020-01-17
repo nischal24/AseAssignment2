@@ -8,6 +8,10 @@ using System.Windows.Forms;
 
 namespace assignment
 {
+    ///<summary>
+    /// circle class implements the shape interface 
+    ///<summary>
+    
     class Circle : Shape//circle class implements shape interface
     {
         int a=0, b=0;
