@@ -12,12 +12,12 @@ namespace assignment
         public void drawShape(string[] res, Graphics g, int k, int l, int radius, int width, int height)
         {
             int a = 0, b = 0;
-            if (res[1].Equals("side"))
+            if (res[1].Equals("side"))// if condition is executed when square side is string
             {
                 a = 50;
                 b = 50;
             }
-            else
+            else// else condition is executed if square side  is integer
             {
                 a = Convert.ToInt32(res[1]);
                 b = Convert.ToInt32(res[1]);
